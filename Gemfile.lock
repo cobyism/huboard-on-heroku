@@ -1,13 +1,14 @@
 GIT
-  remote: git://github.com/atmos/warden-github.git
-  revision: 13ebd61a57315c2099a9cdd4bd202f49fd8493bb
+  remote: https://github.com/atmos/warden-github.git
+  revision: 366f9ce05a79aa434fd32c9596e8b34aa9f87122
   specs:
-    warden-github (1.0.1)
+    warden-github (1.3.2)
+      activesupport (> 3.0)
       octokit (> 2.1.0)
       warden (> 1.0)
 
 GIT
-  remote: git://github.com/maccman/sinatra-contrib.git
+  remote: https://github.com/maccman/sinatra-contrib.git
   revision: 3dde2819a31791a9124d916c4449df0741af45f9
   specs:
     sinatra-contrib (1.4.1)
@@ -198,7 +199,7 @@ GEM
     httparty (0.11.0)
       multi_json (~> 1.0)
       multi_xml (>= 0.5.2)
-    i18n (0.6.11)
+    i18n (0.8.0)
     inflecto (0.0.2)
     interception (0.4)
     ipaddress (0.8.0)
@@ -246,8 +247,8 @@ GEM
     rack-ssl (1.3.3)
       rack
     rack-standards (0.0.1)
-    rack-test (0.6.2)
-      rack (>= 1.0)
+    rack-test (0.7.0)
+      rack (>= 1.0, < 3)
     raindrops (0.13.0)
     rake (10.1.0)
     raygun4ruby (1.1.3)
@@ -324,7 +325,7 @@ GEM
       rack
       raindrops (~> 0.7)
     uuidtools (2.1.5)
-    warden (1.2.3)
+    warden (1.2.7)
       rack (>= 1.0)
     warden_strategies (0.1.0)
     websocket-driver (0.3.5)
